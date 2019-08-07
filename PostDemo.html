@@ -4,13 +4,11 @@
 
 </head>
 <body>
-
-<h2>A Formidable Form</h2>
-<form action="https://requestbin-mpr.herokuapp.com/19643o51" method="POST">
-First Name: <input type="text" name="firstName" id="firstName"><br/>
-Last Name: <input type="text" name="lastName" id ="lastName"><br/>
-<input type="submit">
-
+<h2>Strategy 1: Forms</h2>
+<form method="POST" action="https://api.particle.io/v1/devices/3e0028000447373336323230/controlLED">
+Control Verb: <input type="text" size="10" name="args" value="on"/><br>
+<input type="submit" value="Control LED (Forms)"/> 
+<input type="hidden" name="access_token" value="a68b2b1a877283329fc58e913d3b1f7249f2dcd8"/>
 </form>
 </body>
 </html>
