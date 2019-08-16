@@ -1,0 +1,40 @@
+# mprogers.github.io
+
+Software Development for macOS Users - a Few Pointers
+ 
+macOS is based on UNIX, from which Linux is derived. To access it on the command line, use
+the Terminal: the app is in the Applications > Utilities folder, or you can find it with Spotlight.
+Apple's official guide to using the Terminal is here, and worth reading in its entirety. If you are
+unfamiliar with UNIX/Linux commands (e.g., ls, cd, pwd, rm, rmdkir, mkdir, touch, etc.), an
+excellent, Terminal-specific one, is here.
+ 
+Pointers:
+ 
+1. First, the basics:
+ 
+1. Configure the Dock so that it automatically hides (System Preferences >> Dock)
+2. Show file name extensions (Finder Preferences >> Advanced)
+3. Drag commonly-used folders to a Finder window sidebar
+4. Drag commonly-used applications to a Finder window toolbar
+5. Change the Terminal profile to something cool (like Homebrew): Terminal >>
+Preferences >> Profiles >> Homebrew (or whatever profile strikes your fancy), then
+click on Default
+ 
+2. To go back and forth between the Terminal and Finder is easy:
+1. In the Terminal, type open . to open the current directory as a folder in the Finder
+2. Right click on a folder in the Finder and choose Services >> New Terminal At Folder
+to open a terminal in directory that corresponds to the folder
+ 
+3. The default shell on Terminal is zsh, so if you spend a lot of time in the Terminal (as you
+should!) check out this discussion.
+ 
+4. If you visit any of these sites on a Mac, you will get a Mac binary (otherwise just go to
+downloads)
+1. Visual Studio Code
+2. git
+3. node.js
+ 
+5. Drag Visual Studio Code to a Finder window toolbar. Then, to open up any other folder, just
+drag it over the Visual Studio Code Icon
+ 
+6. Install Xcode - it comes with some helpful development toolchains
